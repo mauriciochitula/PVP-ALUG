@@ -1,0 +1,42 @@
+.veiculo-card {
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.veiculo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.veiculo-card .card-title {
+  color: #001649;
+  font-weight: bold;
+}
+
+.veiculo-card .btn {
+  background-color: #3498db;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.veiculo-card .btn:hover {
+  background-color: #001649;
+  color: #fff;
+}
+ 
+.botao {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;     /* remove sublinhado */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #001649;
+  color: #fff;
+}

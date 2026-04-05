@@ -1,0 +1,82 @@
+.logo-frame {
+  background-color: #001649;
+  padding: 20px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.logo-frame h3 {
+  font-family: 'Arial', sans-serif; 
+  font-size: 3 rem;
+  color: #ffffff; 
+  margin: 0;
+}
+
+.flipped {
+  display: inline-block; 
+  transform: scaleX(-1);
+}
+
+.login-bg {
+  background-image: url("estrada.jpg"); 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+}
+
+.card {
+  border-radius: 0;
+  display: 0;
+}
+h1{
+  background-color: aliceblue;
+}
+
+.botao {
+  background-color: #3498db; 
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #001649; 
+}
+
+.botao:active {
+  background-color: #21d36b; 
+}
+
+.custom-navbar {
+  background-color: #222; 
+  padding: 0.8rem 1rem;
+}
+
+.logo-frame h2 {
+  color: #fff;
+  margin: 0;
+  font-weight: bold;
+}
+
+.entrar-link {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.entrar-link:hover {
+  color: #ffc107; 
+}
+
+.custom-navbar .botao {
+  padding: 8px 16px;       
+  font-size: 14px;
+  text-decoration: none;   
+  margin-left: auto;      
+}

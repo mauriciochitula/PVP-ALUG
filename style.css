@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-frame {
+  background-color: #001649;
+  padding: 20px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.logo-frame h3 {
+  font-family: 'Arial', sans-serif; 
+  font-size: 3rem;   
+  color: #ffffff; 
+  margin: 0;
+}
+
+.flipped {
+  display: inline-block; 
+  transform: scaleX(-1);
+}
+
+.custom-navbar {
+  background-color: #3498db; 
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff; 
+  font-weight: 600;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffffff; 
+  background-color: #001649; 
+  border-radius: 4px;
+}
+
+.custom-navbar .nav-link:active {
+  color: #21d36b; 
+  background-color: #001649;
+}
+
+.custom-navbar .dropdown-menu {
+  background-color: #001649; 
+  border: none;
+}
+
+.custom-navbar .dropdown-item {
+  color: #f1f1f1;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: #3498db;
+  color: #ffffff; 
+}
+
+.custom-navbar .dropdown-item:active {
+  background-color: #21d36b;
+  color: #fff;
+}
+
+.navbar .form-control {
+  background-color: #ffffff;   
+  color: #000000;
+  border: 2px solid #001649;
+  transition: all 0.3s ease;
+}
+
+.navbar .form-control:focus {
+  background-color: #f0f8ff;   
+  border-color: #3498db;
+  outline: none;
+}
+
+.navbar .btn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn:hover {
+  background-color: #001649;   
+  border-color: #001649;
+  color: #fff;
+}
+
+.navbar .btn:active {
+  background-color: #21d36b;   
+  border-color: #21d36b;
+  color: #fff;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.carousel-caption p {
+  color: #fff; 
+}
+
+.carousel-item img {
+  width: 100%;          
+  height: 630px;        
+  object-fit: cover;    
+}
+
+.botao {
+  background-color: #3498db; 
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #001649; 
+}
+
+.botao:active {
+  background-color: #21d36b; 
+}
+
+.botao a {
+  text-decoration: none;   
+  color: inherit;          
+  font-weight: bold;       
+}
+
+.botao a:hover {
+  text-decoration: none;   
+  color: #fff;             
+}
+
+.custom-footer {
+  background-color: #3498db;
+  color: #fff;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.custom-footer h3, 
+.custom-footer h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #21d36b;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
